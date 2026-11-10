@@ -426,15 +426,79 @@ createTab("Dashboard", DashboardPage, false)
 createTab("Emote Player", EmotePage, true)
 
 -- =====================================================================
--- EMOTES DATA & LOGIC
+-- EMOTES DATA & LOGIC (Updated with full requested list)
 -- =====================================================================
 local emotes = {
-    {Name = "Luxury Wave", ID = 507770239},
-    {Name = "Confident Lean", ID = 33380027},
-    {Name = "Victory Flex", ID = 45834924},
-    {Name = "Smooth Swagger", ID = 33380064},
-    {Name = "Elite Salute", ID = 591872667},
-    {Name = "Boss Stride", ID = 28317387}
+    {Name = "Floating Aura", ID = 79795305221612},
+    {Name = "Monkey", ID = 3716636630},
+    {Name = "Curtsy", ID = 4646306583},
+    {Name = "Godlike", ID = 3823158750},
+    {Name = "Helicopter", ID = 110553756436163},
+    {Name = "Happy", ID = 4849499887},
+    {Name = "TWICE The Feels", ID = 12874468267},
+    {Name = "Baby Queen - Bouncy Twirl", ID = 14353423348},
+    {Name = "Rat Dance", ID = 83606297144428},
+    {Name = "Plane", ID = 134913783169182},
+    {Name = "Sleep", ID = 4689362868},
+    {Name = "Tank", ID = 85076031433488},
+    {Name = "Hero Landing", ID = 5104377791},
+    {Name = "Shy", ID = 3576717965},
+    {Name = "Car", ID = 115407270129592},
+    {Name = "Floss Dance", ID = 5917570207},
+    {Name = "Sit", ID = 129668542320076},
+    {Name = "Quiet Waves", ID = 7466046574},
+    {Name = "Fake MM2 Death", ID = 107498554725527},
+    {Name = "Yungblud Happier Jump", ID = 15610015346},
+    {Name = "Baby Dance", ID = 4272484885},
+    {Name = "Baby Queen - Face Frame", ID = 14353421343},
+    {Name = "Box", ID = 73500261613116},
+    {Name = "Top Rock", ID = 3570535774},
+    {Name = "Hide", ID = 84868707350198},
+    {Name = "Baby Queen - Strut", ID = 14353425085},
+    {Name = "Bored", ID = 5230661597},
+    {Name = "KATSEYE - Touch", ID = 139021427684680},
+    {Name = "Dog", ID = 84198855496510},
+    {Name = "L Dance", ID = 73039500693145},
+    {Name = "Ragdoll Push", ID = 91452077708399},
+    {Name = "Take The L", ID = 75633408126191},
+    {Name = "Fry Dance", ID = 124799741487022},
+    {Name = "Twirl", ID = 3716633898},
+    {Name = "Fashionable", ID = 3576745472},
+    {Name = "Line Dance", ID = 4049646104},
+    {Name = "Cower", ID = 4940597758},
+    {Name = "High Wave", ID = 5915776835},
+    {Name = "Worm", ID = 108956933782219},
+    {Name = "TWICE Feel Special", ID = 14900153406},
+    {Name = "V Pose", ID = 10214418283},
+    {Name = "Lotus Position", ID = 12507097350},
+    {Name = "Frosty Flair", ID = 10214406616},
+    {Name = "Effortless Aura Pose", ID = 101573394483995},
+    {Name = "HOT TO GO!", ID = 79312439851071},
+    {Name = "Dolphin Dance", ID = 5938365243},
+    {Name = "Old Town Road Dance", ID = 5938394742},
+    {Name = "Phase", ID = 79653736088166},
+    {Name = "Sturdy Dance", ID = 17746270218},
+    {Name = "Piano Hands", ID = 16553249658},
+    {Name = "Around Town", ID = 3576747102},
+    {Name = "Head Bop", ID = 15554010118},
+    {Name = "Celebrate", ID = 3994127840},
+    {Name = "SHAKE", ID = 132367660388476},
+    {Name = "Show Dem Wrists", ID = 7202898984},
+    {Name = "Side to Side", ID = 3762641826},
+    {Name = "Dorky Dance", ID = 4212499637},
+    {Name = "Cute Levitating", ID = 101601077005248},
+    {Name = "TWICE LIKEY", ID = 14900151704},
+    {Name = "Chill Bounce", ID = 132112297758791},
+    {Name = "Telekinesis Head Floating Aura", ID = 81666519067619},
+    {Name = "Hornet's Spider Dance", ID = 74716792202343},
+    {Name = "Spiderman Hang", ID = 108635834286627},
+    {Name = "Shuffle", ID = 4391208058},
+    {Name = "Fancy Feet", ID = 3934988903},
+    {Name = "Dizzy", ID = 3934986896},
+    {Name = "TWICE What Is Love", ID = 13344121112},
+    {Name = "Jamal Brazil Groove", ID = 104131847054135},
+    {Name = "HOLIDAY Dance", ID = 5938396308},
+    {Name = "Hip Sway", ID = 80963950541052}
 }
 
 local selectedEmoteId = nil
@@ -551,4 +615,4 @@ UnloadBtn.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
 end)
 
-print("Boost Hub Luxury Loaded Successfully!")
+print("Boost Hub Luxury Loaded Successfully with All Emotes!")
