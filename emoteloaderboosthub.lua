@@ -322,9 +322,13 @@ local Window = WindUI:CreateWindow({
         end,
     },
     KeySystem = {
-        Key = { "818482910837" },
         Note = "Get Your Key From Panda Auth",
-        URL = "https://dash.pandauth.com/getkey/boosthub",
+        API = {
+            {
+                Type = "pandadevelopment",
+                ServiceId = "boosthub",
+            },
+        },
         SaveKey = true,
     }
 })
